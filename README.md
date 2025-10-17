@@ -5,6 +5,7 @@
 **Dozent:** Philippe Dubach  
 **Projektart:** UX / Data / Web Application  
 **Live-Version:** [https://heimzeit.online/im3/public/index.php](https://heimzeit.online/im3/public/index.php)
+**Figma:**  https://www.figma.com/design/VZQ7crJ4ZmmwgtNYNKj4mO/My-Remote-Job?node-id=0-1&t=Rug1QVXGkEIyzPbK-1 (View only)
 
 ---
 
