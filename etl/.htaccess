@@ -1,0 +1,3 @@
+# PHP für diesen Ordner aktivieren
+AddHandler application/x-httpd-php .php
+Options +ExecCGI

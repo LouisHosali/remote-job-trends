@@ -1,0 +1,9 @@
+# Erlaube Zugriff auf JSON-Dateien in /public/sql
+<FilesMatch "\.json$">
+  Require all granted
+</FilesMatch>
+
+# (optional) alles andere sperren
+<FilesMatch "^(?!.*\.json$).*">
+  Require all denied
+</FilesMatch>

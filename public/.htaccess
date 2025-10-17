@@ -1,0 +1,16 @@
+# immer index.php als Startdatei
+DirectoryIndex index.php
+
+# saubere Rewrites: echte Dateien/Ordner nicht umschreiben
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# API/ETL/SQL-Pfade unverändert durchlassen (weil sie in public/ liegen)
+RewriteRule ^api/ - [L]
+RewriteRule ^etl/ - [L]
+RewriteRule ^sql/ - [L]
+
+# alles andere an index.php
+RewriteRule ^ index.php [L]
